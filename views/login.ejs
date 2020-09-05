@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IT Counselling BOT</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+	<style type="text/css">
+		h2{
+			font-family: 'Lora', serif;
+		}
+		h5{
+			font-family: 'Lora', serif;
+		}
+		</style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{
+			background-position: 350px 50px;
+			background-repeat: no-repeat;
+		}
+        input[type=text], input[type=password] {
+            background-color: #D2CECE;
+            width: 250px;
+            padding: 10px 20px;
+            margin: 0px 0px 10px 0;
+            display: inline-block;
+            border: 1px #D2CECE;
+            border-radius: 30px;
+            outline: none;
+  /*box-sizing: border-box;*/
+
+}
+button {
+  width: 250px;
+  float: center;	
+  background-color: #57B846;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+div{
+    position: absolute;
+    top: 350px;
+    left: 40%;
+}
+	</style>
+</head>
+    <body>
+		<img src="/images/logo.png" align="left" height="150" width="150" hspace="50">
+		<center>
+			<h2>SHRI VISHNU ENGINEERING COLLEGE FOR WOMEN::BHIMAVARAM</h2>
+			<h5>(AUTONOMOUS)</h5>
+			<h2>DEPARTMENT OF INFORMATION TECHNOLOGY</h2>
+			<h2>IT COUNSELLING BOT</h2>
+        </center>
+        <div>
+        <form action="/validation" method="POST">
+            <center>
+            <input type="text" placeholder="Username" name="uname" required>
+            <br>
+            <input type="password" placeholder="Password" name="psw" required>
+            <br>
+            <button type="submit"><b>Sign In</b></button>
+        </center>
+        </form>      
+    </div>
+    </body>
+</html>
+    
